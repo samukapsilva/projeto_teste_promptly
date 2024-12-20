@@ -1,0 +1,11 @@
+pandas==2.1                                     # Para manipulação e transformação de dados
+pyarrow==12.0.0                                 # Para trabalhar com arquivos Parquet
+psycopg2-binary==2.9.7                          # Driver para conexão com PostgreSQL
+boto3==1.28.77                                  # Para interação com MinIO (compatível com API S3)
+pydantic==2.0.3                                 # Para validação e estruturação de dados
+python-dotenv==1.0.0                            # Para carregar variáveis de ambiente a partir de arquivos .env
+apache-airflow==2.7.2                           # Inclua a versão mais recente compatível com sua necessidade
+apache-airflow-providers-apache-spark==2.2.0    # Provedor para integração com Spark
+apache-airflow-providers-http==4.1.1            # Se você precisa usar conexões HTTP
+pyspark==3.4.1                                  # Para usar o Spark para processamento de grandes cargas
+delta-spark==2.4.0                              # Para a possibilidade de usar delta on-prem
