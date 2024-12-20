@@ -1,26 +1,26 @@
 
-### Explicação das Seções:
+### Section Explanation:
 
-1. **PROJETO TESTE PROMPTLY**: 
-   - O projeto teste promptly tem o objetivo de ingerir dados brutos de fontes distintas, transformar esses dados e gravar em um formato rico para servir a areas interessadas, criar data products, dashboards entre outros.
-  
-2. **Estrutura do Projeto**:
-   - O projeto está estruturado em modulos independentes, incluindo as partes de **extração**, **transformação**, **carregamento** e **orquestração**.
+1. **PROMPTLY TEST PROJECT**:
+- The promptly test project aims to ingest raw data from different sources, transform this data and save it in a rich format to serve interested areas, create data products, dashboards, among others.
 
-3. **Requisitos e Instalação**:
-   - Para instalar as dependências, execute o arquivo `requirements.txt`.
-  
-4. **Execução do Projeto**:
-   - Para executar o projeto de forma manual, rode o aquivo main.py, para automarizar o processo, execute o arquivo promptly_orquestration.py, configurando os serviços necessários (PostgreSQL, MinIO, Airflow), que pode ser feito no arquivo config.properties.
+2. **Project Structure**:
+- The project is structured in independent modules, including the **extraction**, **transformation**, **loading** and **orchestration** parts.
 
-5. **Estrutura de Diretórios**:
-   - Os arquivos referentes a ingestão de dados, estão na pasta 'ingestion'
-   - Os arquivos referentes à transformacao de dados, estao na pasta 'transformation'
-   - O arquivo referente à orquestracao do projeto está na pasta orquestration
-   - Uma base de conhecimento para ajudar em problemas comuns, está na pasta raíz do projeto com o onme knowledge_base.md
+3. **Requirements and Installation**:
+- To install the dependencies, run the `requirements.txt` file.
 
-6. **Considerações Finais e TODO**:
-   - Toda parte de log foi feita apenas na classe main, mas a ideia é expandir para o resto do projeto e depois trabalha-los com o elasticsearch, acompanhar no grafana etc.
+4. **Project Execution**:
+- To run the project manually, run the main.py file, to automate the process, run the promptly_orquestration.py file, configuring the necessary services (PostgreSQL, MinIO, Airflow), which can be done in the config.properties file.
 
-7. **Licença**:
-   - Criado apenas para exercicio e cedido à promptly sem nenhuma exigencia de direito autoral.
+5. **Directory Structure**:
+- The files related to data ingestion are in the 'ingestion' folder
+- The files related to data transformation are in the 'transformation' folder
+- The file related to project orchestration is in the orchestration folder
+- A knowledge base to help with common problems is in the project root folder with the name knowledge_base.md
+
+6. **Final Considerations and TODO**:
+- The entire logging part was done only in the main class, but the idea is to expand it to the rest of the project and then work on them with elasticsearch, monitor in grafana, etc.
+
+7. **License**:
+- Created only for exercise and granted to promptly without any copyright requirement.
